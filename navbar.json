@@ -1,0 +1,32 @@
+[
+    {
+        "name": "users",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "users.index",
+        "children": [
+            {
+                "name": "list users",
+                "route": "users.index"
+            },
+            {
+                "name": "create new user",
+                "route": "users.create"
+            }
+        ]
+    },
+    {
+        "name": "rooms",
+        "icon": "nav-icon fas fa-tachometer-alt",
+        "route": "rooms.index",
+        "children": [
+            {
+                "name": "list rooms",
+                "route": "rooms.index"
+            },
+            {
+                "name": "create new room",
+                "route": "rooms.create"
+            }
+        ]
+    }
+]
